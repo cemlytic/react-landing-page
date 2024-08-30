@@ -14,7 +14,7 @@ const WorkFlow = () => {
           <img
             src={workflowBg}
             alt="code"
-            className="shadow-gray-800 shadow-xl rounded-md"
+            className="y-800 shadow-xl rounded-md"
           />
         </div>
         <div className="pt-12 w-full lg:w-1/2">

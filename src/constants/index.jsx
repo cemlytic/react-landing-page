@@ -151,3 +151,27 @@ export const testimonials = [
     text: "The team's dedication and expertise were evident throughout the project. They delivered outstanding work and I am eager to work with them again.",
   },
 ];
+
+export const resourcesLinks = [
+  { label: "Documentation", href: "#" },
+  { label: "API Reference", href: "#" },
+  { label: "Guides", href: "#" },
+  { label: "Tutorials", href: "#" },
+  { label: "Blog", href: "#" },
+];
+
+export const platformLinks = [
+  { label: "Overview", href: "#" },
+  { label: "Features", href: "#" },
+  { label: "Pricing", href: "#" },
+  { label: "Integrations", href: "#" },
+  { label: "Status", href: "#" },
+];
+
+export const communityLinks = [
+  { label: "Forum", href: "#" },
+  { label: "Events", href: "#" },
+  { label: "Slack", href: "#" },
+  { label: "GitHub", href: "#" },
+  { label: "Twitter", href: "#" },
+];
