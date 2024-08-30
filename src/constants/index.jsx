@@ -73,3 +73,36 @@ export const checklistElements = [
       "Quickly share your work with team members or stakeholders with just a few clicks.",
   },
 ];
+
+export const pricingOptions = [
+  {
+    title: "Free",
+    price: "$0",
+    features: [
+      "Basic board interaction",
+      "5 GB cloud storage",
+      "Fundamental analytics reports",
+      "Standard data protection",
+    ],
+  },
+  {
+    title: "Pro",
+    price: "$10",
+    features: [
+      "Extended board interaction",
+      "10 GB cloud storage",
+      "Detailed analytics insights",
+      "Advanced data encryption",
+    ],
+  },
+  {
+    title: "Enterprise",
+    price: "$200",
+    features: [
+      "Comprehensive board interaction",
+      "Unlimited cloud storage",
+      "In-depth analytics and reporting",
+      "Private Mood",
+    ],
+  },
+];

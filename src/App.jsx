@@ -3,6 +3,7 @@ import Navbar from "./components/layout/Navbar";
 import Hero from "./components/layout/Hero";
 import Features from "./components/layout/Features";
 import WorkFlow from "./components/layout/WorkFlow";
+import Pricing from "./components/layout/Pricing";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <Features />
         <WorkFlow />
+        <Pricing />
       </div>
     </React.Fragment>
   );
