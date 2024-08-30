@@ -4,6 +4,7 @@ import Hero from "./components/layout/Hero";
 import Features from "./components/layout/Features";
 import WorkFlow from "./components/layout/WorkFlow";
 import Pricing from "./components/layout/Pricing";
+import Testimonials from "./components/layout/Testimonials";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Features />
         <WorkFlow />
         <Pricing />
+        <Testimonials />
       </div>
     </React.Fragment>
   );
