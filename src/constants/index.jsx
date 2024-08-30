@@ -50,3 +50,26 @@ export const features = [
       "Develop VR experiences that function smoothly on various platforms, including mobile, desktop, and VR headsets.",
   },
 ];
+
+export const checklistElements = [
+  {
+    title: "Seamless Code Integration",
+    description:
+      "Effortlessly integrate code changes with automated conflict resolution and merge tools.",
+  },
+  {
+    title: "Thorough Code Reviews",
+    description:
+      "Ensure high-quality code through detailed reviews and collaborative feedback processes.",
+  },
+  {
+    title: "AI-Powered Code Suggestions",
+    description:
+      "Utilize AI tools to get intelligent code suggestions and optimize development efficiency.",
+  },
+  {
+    title: "Instant Work Sharing",
+    description:
+      "Quickly share your work with team members or stakeholders with just a few clicks.",
+  },
+];
