@@ -1,8 +1,8 @@
 import { Menu, X } from "lucide-react";
-import { navLinks } from "../../data/data";
 import { useState } from "react";
 import NavLink from "../common/NavLink";
 import Button from "../UI/Button";
+import { navLinks } from "../../constants";
 
 const Navbar = () => {
   const [openMobile, setOpenMobile] = useState(false);
