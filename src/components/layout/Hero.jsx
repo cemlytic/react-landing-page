@@ -1,3 +1,4 @@
+import AccentText from "../common/AccentText";
 import Button from "../UI/Button";
 
 const Hero = () => {
@@ -5,10 +6,7 @@ const Hero = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center">
         Tools and Insights
-        <span className="text-transparent bg-gradient-to-r from-orange-500 to-red-800 bg-clip-text">
-          {" "}
-          for Developers
-        </span>
+        <AccentText>for Developers</AccentText>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
         Unlock your potential with our comprehensive tools and resources
@@ -16,12 +14,13 @@ const Hero = () => {
         solutions to shape the future of technology.
       </p>
       <div className="flex justify-center my-10">
-        <Button className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3" href="#">
-            Start for free
+        <Button
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3"
+          href="#"
+        >
+          Start for free
         </Button>
-        <Button className="border py-3 px-4">
-            Documentation
-        </Button>
+        <Button className="border py-3 px-4">Documentation</Button>
       </div>
     </div>
   );
