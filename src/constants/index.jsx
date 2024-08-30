@@ -112,3 +112,42 @@ export const pricingOptions = [
     ],
   },
 ];
+
+export const testimonials = [
+  {
+    user: "Alex Martinez",
+    company: "Innovative Tech Labs",
+    image: avatar1,
+    text: "Our experience with this team was exceptional. They were prompt, professional, and went above and beyond to deliver a product that exceeded our expectations.",
+  },
+  {
+    user: "Sophia Lee",
+    company: "NextGen Solutions",
+    image: avatar2,
+    text: "The project turned out beautifully thanks to their creativity and problem-solving skills. They transformed our ideas into a stunning reality.",
+  },
+  {
+    user: "Liam Roberts",
+    company: "Advanced Systems Inc.",
+    image: avatar3,
+    text: "Their commitment to quality and attention to detail were outstanding. We are thrilled with the results and would highly recommend their services.",
+  },
+  {
+    user: "Olivia Harris",
+    company: "Tech Frontier",
+    image: avatar4,
+    text: "The collaboration with this team was truly transformative. Their innovative approach and meticulous execution helped us achieve our objectives ahead of schedule.",
+  },
+  {
+    user: "Ethan Clark",
+    company: "Creative Dynamics",
+    image: avatar5,
+    text: "We were impressed by their level of professionalism and dedication. They surpassed our expectations and delivered exceptional results.",
+  },
+  {
+    user: "Ava Johnson",
+    company: "Future Vision Technologies",
+    image: avatar6,
+    text: "The team's dedication and expertise were evident throughout the project. They delivered outstanding work and I am eager to work with them again.",
+  },
+];
