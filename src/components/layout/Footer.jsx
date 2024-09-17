@@ -7,7 +7,7 @@ const FooterSection = ({ title, links }) => {
       <h3 className="text-lg font-semibold mb-4">{title}</h3>
       <ul className="flex flex-col items-start gap-2">
         {links.map((link, index) => (
-          <NavLink key={index} href={link.href} label={link.label} />
+          <NavLink key={index} href={link.href} label={link.label} className="text-slate-300 text-sm"/>
         ))}
       </ul>
     </div>
