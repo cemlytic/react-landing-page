@@ -13,14 +13,14 @@ const Hero = () => {
         designed for developers. Dive in now and start building innovative
         solutions to shape the future of technology.
       </p>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center flex-wrap gap-4 my-10">
         <Button
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3"
           href="#"
         >
           Start for free
         </Button>
-        <Button className="border py-3 px-4">Documentation</Button>
+        <Button className="border py-3 px-4" href="#">Documentation</Button>
       </div>
     </div>
   );
