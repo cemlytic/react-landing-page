@@ -4,8 +4,8 @@ import AccentText from "../common/AccentText";
 const Features = () => {
   return (
     <div className="relative  mt-20 border-b border-neutral-800 min-h-[800px]">
-      <div className="text-center">
-        <span className="bg-neutral-800 text-orange-500 rounded-full h-6 text-small font-medium px-3 py-1">
+      <div className="text-center flex items-center flex-col gap-4 lg:gap-0">
+        <span className="bg-neutral-800 text-orange-500 rounded-full h-6 flex items-center justify-center text-small font-medium px-4 py-2  ">
           Features
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl ml-10 lg:mt-20 ">
