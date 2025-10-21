@@ -1,11 +1,11 @@
-import React from "react";
-import Navbar from "./components/layout/Navbar";
-import Hero from "./components/layout/Hero";
-import Features from "./components/layout/Features";
-import WorkFlow from "./components/layout/WorkFlow";
-import Pricing from "./components/layout/Pricing";
-import Testimonials from "./components/layout/Testimonials";
-import Footer from "./components/layout/Footer";
+import React from 'react';
+import Navbar from './components/layout/Navbar';
+import Hero from './components/layout/Hero';
+import Features from './components/layout/Features';
+import WorkFlow from './components/layout/WorkFlow';
+import Pricing from './components/layout/Pricing';
+import Testimonials from './components/layout/Testimonials';
+import Footer from './components/layout/Footer';
 
 const App = () => {
   return (
@@ -17,8 +17,8 @@ const App = () => {
         <WorkFlow />
         <Pricing />
         <Testimonials />
-        <Footer />
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
